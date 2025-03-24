@@ -25,6 +25,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    applicationId "me.ctwo.ctwome.signinwithapple"
     compileSdkVersion 28
 
     sourceSets {
