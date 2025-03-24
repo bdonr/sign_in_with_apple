@@ -25,8 +25,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    applicationId "me.ctwo.ctwome.signinwithapple"
-    compileSdkVersion 28
+    compileSdk = 33
+    namespace "me.ctwo.ctwome.signinwithapple" 
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
